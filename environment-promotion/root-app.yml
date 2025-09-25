@@ -15,7 +15,7 @@ spec:
   source:
     repoURL: https://github.com/jterpstra1/gitops-cert-level-2-examples.git
     targetRevision: HEAD
-    path: ./envrironment-promotion/envs
+    path: ./environment-promotion/envs
    
   # Destination cluster and namespace to deploy the application
   destination:
