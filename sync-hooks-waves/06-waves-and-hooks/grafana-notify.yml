@@ -2,7 +2,7 @@ apiVersion: batch/v1
 kind: Job
 metadata:
   namespace: example06
-  generateName: grafana-notify-1
+  #generateName: grafana-notify-1
   labels:
     codefresh.io/cert: grafana-job  
   annotations:
